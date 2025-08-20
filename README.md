@@ -4,13 +4,13 @@
 计划做一个校内二手交易平台，目前只完成了小demo
 
 # 1）首页
-![image](https://github.com/Farry-Zhang/wx-miniprogram/blob/master/image/%E5%8F%91%E5%B8%83%E9%A1%B5.jpg)
+![image](https://github.com/Farry-Zhang/wx-miniprogram/blob/master/image/%E9%A6%96%E9%A1%B5.jpg)
 
 # 2）详情页
 ![image](https://github.com/Farry-Zhang/wx-miniprogram/blob/master/image/%E8%AF%A6%E6%83%85%E9%A1%B5.jpg)
 
 # 3）发布页
-![image](https://github.com/Farry-Zhang/wx-miniprogram/blob/master/image/%E9%A6%96%E9%A1%B5.jpg)
+![image](https://github.com/Farry-Zhang/wx-miniprogram/blob/master/image/%E5%8F%91%E5%B8%83%E9%A1%B5.jpg)
 
 # 云开发 quickstart
 
