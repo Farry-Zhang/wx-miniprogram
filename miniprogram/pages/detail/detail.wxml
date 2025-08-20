@@ -1,0 +1,31 @@
+<view class="container">
+  <image class="product-image" src="{{product.image}}" mode="aspectFill" wx:if="{{product.image}}" />
+  
+  <view class="info">
+    <view class="info-item">
+      <text class="label">商品名称：</text>
+      <text class="value">{{product.title}}</text>
+    </view>
+
+    <view class="info-item">
+      <text class="label">价格：</text>
+      <text class="value">¥{{product.price}}</text>
+    </view>
+
+    <view class="info-item">
+      <text class="label">位置：</text>
+      <text class="value">{{product.location}}</text>
+    </view>
+
+    <view class="info-item">
+      <text class="label">联系方式：</text>
+      <text class="value">{{product.contact}}</text>
+    </view>
+    <view class="info-item">
+      <text class="label">发布时间：</text>
+      <text class="value">{{product.createTimeFormatted}}</text>
+    </view>
+  </view>
+</view>
+
+

@@ -1,0 +1,71 @@
+.container {
+  padding: 20rpx;
+  background: #f5f7fa;
+  min-height: 100vh;
+}
+
+.goods-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20rpx;
+  width: 100%;
+}
+
+.goods-card {
+  background: #fff;
+  border-radius: 16rpx;
+  box-shadow: 0 4rpx 12rpx rgba(0,0,0,0.05);
+  overflow: hidden;
+  border: 2px rgb(238, 146, 238);
+}
+
+.goods-img {
+  width: 100%;
+  height: auto;
+  aspect-ratio: 1/1;
+  display: block ;
+  object-fit: cover;
+}
+
+.goods-info {
+  padding: 10rpx;
+}
+
+.goods-title {
+  font-size: 28rpx;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 6rpx;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.goods-price {
+  font-size: 26rpx;
+  color: #ff4d4f;
+}
+
+.publish-btn {
+  position: fixed;
+  right: 40rpx;
+  bottom: 80rpx;
+  width: 100rpx;
+  height: 100rpx;
+  background: #ba5dd6;
+  border-radius: 50%;
+  box-shadow: 0 6rpx 20rpx rgba(0, 0, 0, 0.2);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.plus {
+  font-size: 50rpx;
+  color: #fff;
+  font-weight: bold;
+}
+
+
+  
+  

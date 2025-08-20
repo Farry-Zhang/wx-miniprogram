@@ -1,0 +1,20 @@
+<view class="container">
+  <view class="goods-grid">
+    <block wx:for="{{products}}" wx:key="_id">
+      <view class="goods-card" bindtap="goDetail" data-id="{{item._id}}">
+        <image class="goods-img" src="{{item.image}}" mode="aspectFill"></image>
+        <view class="goods-info">
+          <view class="goods-title">{{item.title}}</view>
+          <view class="goods-price">¥{{item.price}}</view>
+        </view>
+      </view>
+    </block>
+  </view>
+</view>
+
+<!-- 右下角发布按钮 -->
+<view class="publish-btn" bindtap="goPublish">
+  <text class="plus">+</text>
+</view>
+
+

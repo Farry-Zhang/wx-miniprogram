@@ -1,0 +1,21 @@
+<view class="container">
+  <input placeholder="商品名称" bindinput="onTitleInput" value="{{title}}" />
+  <input placeholder="价格" type="number" bindinput="onPriceInput" value="{{price}}" />
+
+  <!-- 新增商品位置输入 -->
+  <input placeholder="请输入商品位置，如虎溪校区、A区" bindinput="onLocationInput" value="{{location}}" />
+
+  <input placeholder="联系方式" bindinput="onContactInput" value="{{contact}}" />
+
+  <view class="image-picker">
+    <button bindtap="chooseImage">选择图片</button>
+    <block wx:if="{{image}}">
+      <image class="preview" src="{{image}}" mode="aspectFill"></image>
+    </block>
+  </view>
+
+  <button type="primary" bindtap="submit">提交</button>
+</view>
+
+
+
